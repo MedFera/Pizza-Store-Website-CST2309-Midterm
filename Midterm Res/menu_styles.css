@@ -1,0 +1,138 @@
+.topnav {
+    position: relative;
+    background-color: rgb(33, 105, 172);
+    overflow: hidden;
+    opacity: .9;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(230, 119, 46);
+    color: rgb(33, 105, 172);
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizzaback {
+    background-image: url('Square_Pizza.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.foottable {
+    width: 100%; 
+    text-align:left;
+    
+}
+
+.footerdiv {
+    background-color: rgb(33, 105, 172);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    opacity: .9;
+    clear: both;
+}
+
+.footerdiv table{
+    text-align: center;
+}
+
+.footerdiv table th{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 16px;
+}
+
+.footerdiv table td{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 10px;
+}
+
+/* BODY WORK */
+.mainmenutable{
+    border: 3px solid rgb(33, 105, 172);
+    background-color: rgba(0, 0, 0, .65);
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    color: #f2f2f2;
+}
+
+.mainmenutable td{
+    padding: 0.5rem;
+    border: 3px solid rgb(230, 119, 46);
+}
+
+.mainmenutable th{
+    padding: 0.5rem;
+    border: 3px solid rgb(230, 119, 46);
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+table tr td:first-child, th:first-child{
+    border-left: none;
+}
+         
+table tr:first-child th{
+    border-top: none;
+}
+         
+  
+table tr td:last-child, th:last-child{
+    border-right: none;
+}
+         
+    
+table tr:last-child td{
+    border-bottom: none;
+}
+
+.description {
+    width: 20%;
+    height: 100px;
+    font-size: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.price {
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.itemName{
+    font-size: 35px;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+}
+
+.itemImg{
+    width: 20%;
+}
+
+.itemImg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

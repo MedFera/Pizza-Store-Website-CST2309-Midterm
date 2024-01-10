@@ -1,0 +1,112 @@
+.topnav {
+    position: relative;
+    background-color: rgb(33, 105, 172);
+    overflow: hidden;
+    opacity: .9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(230, 119, 46);
+    color: rgb(33, 105, 172);
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizzaback {
+    background-image: url('Square_Pizza.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.foottable {
+    width: 100%; 
+    text-align:left;
+    
+}
+
+.footerdiv {
+    background-color: rgb(33, 105, 172);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    opacity: .9;
+    clear: both;
+}
+
+.footerdiv table{
+    text-align: center;
+}
+
+.footerdiv table th{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 16px;
+}
+
+.footerdiv table td{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 10px;
+}
+
+/* BODY WORK */
+.divmainbody {
+    background-color: rgba(0, 0, 0, .55);
+    display: flex;
+}
+
+.divbody1 {
+    padding: 30px;
+    color: #f2f2f2;
+    width: 50%;
+}
+
+.divbody1 h1{
+    font-family: "GT America";
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+.divbody1 p{
+    font-family: "GT America";
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 550;
+    padding: 15px;
+}
+
+.divbody2 {
+    padding: 30px;
+    color: #f2f2f2;
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+
+
+.divmainbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}

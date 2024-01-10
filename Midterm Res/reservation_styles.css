@@ -1,0 +1,82 @@
+.topnav {
+    position: relative;
+    background-color: rgb(33, 105, 172);
+    overflow: hidden;
+    opacity: .9;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(230, 119, 46);
+    color: rgb(33, 105, 172);
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizzaback {
+    background-image: url('Square_Pizza.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.foottable {
+    width: 100%; 
+    text-align:left;
+    
+}
+
+.footerdiv {
+    background-color: rgb(33, 105, 172);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    opacity: .9;
+    clear: both;
+}
+
+.footerdiv table{
+    text-align: center;
+}
+
+.footerdiv table th{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 16px;
+}
+
+.footerdiv table td{
+    color: #f2f2f2;
+    width: 25%;
+    padding: 10px;
+}
+
+/*  Body  */
+
+.maindiv {
+    background-color: rgba(0, 0, 0, .55);
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.myform {
+    margin: 0 auto; 
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
